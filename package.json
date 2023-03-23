@@ -1,0 +1,34 @@
+{
+  "name": "pianotiles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimpYena/PianoTiles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimpYena/PianoTiles/issues"
+  },
+  "homepage": "https://github.com/SimpYena/PianoTiles#readme",
+  "dependencies": {
+    "@pixi/sound": "^5.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "esbuild-loader": "^2.20.0",
+    "html-webpack-plugin": "^5.5.0",
+    "pixi-timer": "^1.0.1",
+    "pixi.js": "^7.1.2",
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
